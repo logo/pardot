@@ -1,0 +1,18 @@
+
+/**
+ * Pardot
+ */
+
+.logo[data-logo="Pardot"] {
+  width: 3.324514075em;
+  /* (81.75/29.84) * (1+.1+.15) - .1 */
+}
+
+.logo[data-logo="Pardot"] > * {
+  background-image: url(images/logo.svg);
+  margin: -.1em 0 -.15em -.1em;
+}
+
+.logo[data-logo="Pardot"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}
